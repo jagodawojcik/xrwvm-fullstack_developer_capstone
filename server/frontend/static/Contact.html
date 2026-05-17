@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Dealerships</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+    <style>
+        .banner {
+            background-color: #e6ffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-card {
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-container {
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .form-control {
+            margin-bottom: 10px;
+        }
+
+        .btn-custom {
+            background-color: darkturquoise;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: #00a6a6;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="contact-container">
+
+    <div class="banner">
+        <h1>Contact Us</h1>
+        <p>
+            We’d love to hear from you! Whether you have questions about our cars,
+            financing options, or after-sales support, our team is here to help 7 days a week.
+        </p>
+    </div>
+
+    <!-- Contact Info Cards -->
+    <div style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+
+        <div class="contact-card" style="width: 30%;">
+            <p class="title">Sales Department</p>
+            <p>Looking to buy a car? Our sales team can help you find the perfect match.</p>
+            <p>📞 +44 151 555 1234</p>
+            <p> sales@bestcars.com</p>
+        </div>
+
+        <div class="contact-card" style="width: 30%;">
+            <p class="title">Support Center</p>
+            <p>Need help with your purchase or service appointment? We’ve got you covered.</p>
+            <p>📞 +44 151 555 5678</p>
+            <p> support@bestcars.com</p>
+        </div>
+
+        <div class="contact-card" style="width: 30%;">
+            <p class="title">Head Office</p>
+            <p>Best Cars Dealership HQ, Liverpool Business District</p>
+            <p>📍 Liverpool, UK</p>
+            <p> info@bestcars.com</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
